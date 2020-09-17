@@ -1,17 +1,22 @@
-h1 {
-    background-color: beige;
-    border-bottom: 50px solid #000;
-    padding: 30px;
-    align-items: center;
-    font-family: fantasy;
+header{
+    background-color: lightseagreen;
+
+    border-bottom: 50px solid #000
+}
+img {
+    padding-top: 1rem;
+    border-width: 100px solid grey;
+    flex-flow: wrap;   
 }
 
-p.para1 {
-    font-family:Crimson Text;
-    font-style: italic;
+p {
+    font-family: Crimson-Text;
+    flex-direction: column;
+    border-color: lightseagreen;
+    flex-flow: wrap;
 }
 
 main.container {
-    background-color: rgb(155, 96, 75);
+    background-color: lightseagreen;
     margin: 10rem;
 }

@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS reset pages-->
-    <link href="./reset.css" rel="stylesheet"/>
+    <link href="./reset.css" rel="stylesheet">
+    <!--Added Jquery script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Added JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!--CSS retrieved from Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
     <!--CSS retrieved from Bootstrap 4-->
@@ -14,18 +19,32 @@
 
 </head>
 <body>
-    <header class="jumbotro">
-    <h1>About Me</h1>
-    <p>Where it all began.</p>
+    <header class="jumbotro text-center">
+        <h1>About Me</h1>            
     </header>
     
-   
-    <main class="container">
+    <nav class="navbar navbar-expand-md">
+     <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class= "nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item"><a class= "nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item"><a class= "nav-link" href="#">Contact</a>
+        </li>
+        
+    </ul>
+    </nav>
+
+   <!--Added a column container to main tag-->
+    <main class="container-fluid">
     <section class="row">
         <article class="col">
+        <img src= "kj-biopic.jpg" alt="Kendra portrait" width="150" height="175">
+
         <h2>Bundle of Joy</h2>
-        <p class="para1">
-        It all began when Kenny and Sheryl met and they had me (Kendra Jolene Hallam). They never expected their lives to forever be changed by this little bundle of joy. She was the cutest baby ever to step foot on this earth, on September 29. (hahaha) She weighed 7lb and 9oz. She was the baby sister to Tristan Hallam. Who inevitably picked on her from day 1.
+        <p>
+        It all began when Kenny and Sheryl met and they had me (Kendra Jolene Hallam). They never expected their lives to forever be changed by this little bundle of joy. She was the cutest baby ever to step foot on this earth, on September 29. (ha ha ha) She weighed 7lb and 9oz. She was the baby sister to Tristan Hallam. Who inevitably picked on her from day 1.
         </p>
         </article>
     <article class="col">
