@@ -28,7 +28,7 @@ main.container {
 p {
     font-family: 'Crimson Text', serif;
     text-justify: auto;
-    font-size: 36px;
+    font-size: 24px;
     flex-wrap: wrap;
     border-top: thin;
     border-style: solid;
