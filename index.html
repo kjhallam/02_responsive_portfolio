@@ -19,34 +19,36 @@
     <link href="./style.css" rel="stylesheet">
 
 </head>
-<body>
+ <body>
        
              <!--added a nav bar-->
-            <nav class="w3-bar w3 row">
+            <nav id="navBar"class="w3-bar w3 row fixed-top justify-content-center">
                
-                <a href="#" class="col w3-bar w3-button w3-mobile">Home</a>
-                <a href="#" class="col w3-bar w3-button w3-mobile">Porfolio</a>
-                <a href="#" class="col w3-bar w3-button w3-mobile">Contact</a>
+                <a id="homeBtn" href="#" class="col w3-bar w3-button w3-mobile">Home</a>
+                <a id="portfolioBtn"href="#" class="col w3-bar w3-button w3-mobile">Porfolio</a>
+                <a id="contactBtn"href="#" class="col w3-bar w3-button w3-mobile">Contact</a>
             </nav>
         <header id='header' class="jumbotron">Kendra Hallam</header>
 
    <!--Added a column container to main tag-->
     <main class="container">
     <section class="row">
-        <article class="col">
-       
-                <img class="img-fluid float-left" src= "kj-biopic.jpg" alt="Kendra portrait" width="200" height="200">
-
+        <article class="col-xs col-md mt-20">
+                <h2 id=aboutTitle>About Me</h2>
+                <br>
+                <img class="img-fluid float-left" src= "kj-biopic.jpg" alt="Kendra portrait" width="200" height="200" margin="10px">
+                <br>
                 <p>
-                I spent the past 10 years as a Production Artist. I obtained my Bachelor of Science degree in Commercial Graphics in 2004 from Pittsburg State University. After completion, I continued a Master of Science degree in Technology Eduction where I hope to be able to instruct others in the future on technology. 
+                I spent the past 10 years as a Production Artist at Universal Engraving, Inc.
+                Within the 10 years I have gained knowledge with creating textures and manipulating pieces of artwork and typography through using Illustrator and Photoshop. 
+                </p>
+                <p>
+                 Prior to my experience at UEI. I obtained my Bachelor of Science degree in Commercial Graphics in 2004 from Pittsburg State University. After completion, I continued a Master of Science degree in Technology Eduction where I hope to be able to instruct others in the future on technology. 
+                </p>
+                <p> 
+                I am currently seeking a Web Development certification through the University of Kansas. 
                 </p>
             </article>
-            <article class="col">
-                <p> I am currently seeking a Web Development certification through the University of Kansas. </p>
-            </article>
-        </article>
-
-        <article class="col">
       
     </section>
 </main>

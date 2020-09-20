@@ -1,36 +1,35 @@
- 
+
 
 .jumbotron {
     font-family: 'Yeseva One', cursive;
     font-size: 36px;
-    padding-left: 15px;
+    padding-block: 5px;
 }
 
 .w3-bar {
     font-family: 'Yeseva One', cursive;
-    background-color: lightseagreen;
+    font-size: 20px;
+    background-color: #55A38E;
+    
 }
-
+#B8FFEC
 img {
-    padding: 10px;
-    margin: 10px;
-    border: 20px;
-    border-width: 35px; 
+    padding: 0px;
+    margin: 0px
+    border: 35px solid black; 
 }
 
 
 main.container {
-    background-color: lightgray;
-    margin: 15px;
-    padding: 15px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    background-color: lightslategray;
 }
 
 p {
     font-family: 'Crimson Text', serif;
-    text-justify: auto;
     font-size: 24px;
     flex-wrap: wrap;
-    border-top: thin;
     border-style: solid;
 }
 
