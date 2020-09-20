@@ -15,15 +15,14 @@
 #B8FFEC
 img {
     padding: 0px;
-    margin: 0px
-    border: 35px solid black; 
+    margin: 0px; 
 }
 
 
 main.container {
     margin: 10px 5px;
     padding: 10px 5px;
-    background-color: lightslategray;
+    background-color: rgb(211, 219, 228);
 }
 
 p {
