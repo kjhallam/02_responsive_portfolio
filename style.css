@@ -1,55 +1,50 @@
-* {
-    background-color: rgb(233, 232, 232);
 
-}
-.jumbotron {
+#header {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
     margin-bottom: 10px;
     padding: 20px;
-    border-bottom: solid pink;
-    border-bottom-width: 10px;
+    border-bottom: solid darkslategray;
+    border-bottom-width: 7px;
 }
 
 .navbar {
+    background-color: lightpink;
+}
+.navbar-brand {
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
-    background-color: darkgrey;
-    justify-content: center;
-}
-
-.navbar-brand {
     padding: 10px 10px;
     margin: 10px;
 }
 
-h2 {
-    margin-left: 50px;
-    padding-left: 20px;
-}
+
 .imgFluid {
     padding: 10px;
     margin: 20px; 
     border-width: 30px;
-    border: thin;
+    border: solid;
+    justify-content: center;
     float: left;
 }
 
 .container {
-    margin: 10px;
-    padding: 10px;
-}
+    margin: 30px 10px;
+    padding: 10px 10px;
+    justify-content: space-between;
 
-
-p {
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 24px;  
 }
 
 #khTheme {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Questrial',sans-serif;
     font-size: 18px;
     padding: -20px 0px;
+    margin: 5px;
 }
 
+#titleMe {
+    font-family: 'Questrial',    sans-serif;
+    font-style: oblique;
+    font-size: 35px;
+}
 
