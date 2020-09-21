@@ -1,35 +1,55 @@
+* {
+    background-color: rgb(233, 232, 232);
 
-
+}
 .jumbotron {
-    font-family: 'Yeseva One', cursive;
-    font-size: 36px;
-    padding-block: 5px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: solid pink;
+    border-bottom-width: 10px;
 }
 
-.w3-bar {
-    font-family: 'Yeseva One', cursive;
+.navbar {
+    font-family: 'Questrial', sans-serif;
     font-size: 20px;
-    background-color: #55A38E;
-    
-}
-#B8FFEC
-img {
-    padding: 0px;
-    margin: 0px; 
+    background-color: darkgrey;
+    justify-content: center;
 }
 
-
-main.container {
-    margin: 10px 5px;
-    padding: 10px 5px;
-    background-color: rgb(211, 219, 228);
+.navbar-brand {
+    padding: 10px 10px;
+    margin: 10px;
 }
+
+h2 {
+    margin-left: 50px;
+    padding-left: 20px;
+}
+.imgFluid {
+    padding: 10px;
+    margin: 20px; 
+    border-width: 30px;
+    border: thin;
+    float: left;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+}
+
 
 p {
-    font-family: 'Crimson Text', serif;
-    font-size: 24px;
-    flex-wrap: wrap;
-    border-style: solid;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 24px;  
+}
+
+#khTheme {
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    padding: -20px 0px;
 }
 
 
