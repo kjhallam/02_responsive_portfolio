@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--CSS reset pages-->
     <link href="./reset.css" rel="stylesheet">
 
+    <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <!--CSS retrieved from Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
-
-
-    <!--W3 CSS-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
    
     <!--CSS stylesheet from scratch linked-->
     <link href="./style.css" rel="stylesheet">
@@ -39,32 +36,41 @@
                 <!--closing nav bar-->
 
                 <!--Basic Form for Contact information-->
-                <form id="rowContact" class="row">
-                    <div id="colFirst" class="col-sm-3 mt-2">
-                        <label for="firstName">First Name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            <form class="formlayout">
+                    <div id="name">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
                     </div>
 
-                    <div id="colFirst" class="col-sm-3 mt-2">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-                    </div>
-
-                    <div id="colAdd" class="col-sm-3 mt-2">
-                        <label for="emailAddress">Email address</label>
+                    <div id="email">
+                        <label for="emailAddress">Email address:</label>
                         <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
                     </div>
-                    <div>
-                        <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+                    
+                    <div id="message">
+                        <label for="message">Message:</label>
+                        <input type="text" class="form-control" placeholder="message">
                     </div>
-                </form>
+                    <div>
+                        <button id="submitBtn" type="submit" class="btn btn-secondary">Submit
+                        </button>
+                    </div>
+                
+                        <aside>
+                            <a href="mailto:kjhallam321@gmail.com">Email</a>
+                            
+                            <a href="https://github.com/kjhallam/kjhallam.github.io.git">GitHub</a>
+                        
+                            <a href="https://www.linkedin.com/in/kendra-hallam-7999921b4/">LinkedIn</a>
+                        </aside>
+            </form>
+                
             
-        <footer class="footer">|kjh|</footer>
+        <footer class="footer">|kjh|©</footer>
     </main>
   
 
             
-     
                     
                 <!--javascript style-->
                 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

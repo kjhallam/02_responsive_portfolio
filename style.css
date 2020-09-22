@@ -1,3 +1,6 @@
+body {
+    background-image: url(gplaypattern.png);
+}
 
 p {
     margin-top: 20px;
@@ -6,8 +9,16 @@ p {
     font-size: 20px;
 }
 
+aside {
+    font-family: 'Questrial', sans-serif;
+    width: 100%
+    text-align: center;
+    color: teal;
+    background-color: lightgray;
+  }
+
 .navbar {
-    background-color: rgb(21, 117, 117);
+    background-color: teal;
     height: 50px;
 
 }
@@ -16,40 +27,44 @@ p {
     font-size: 20px;
     padding: 2px 10px;
     margin: 0;
-    color: whitesmoke;
+    color: white;
 }
 
 .container {
-    width: 95%;
-    align-items: center;
+    width: 100%;
 }
 
 .footer {
-    position: relative;
     margin-top: 20px;
     padding-top: 0px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: darkslategray;
+    background-color: teal ;
     color: white;
     text-align: center;
 }
+
+.formlayout {
+    clear: both;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Questrial', sans-serif;
+}
+
 
 #header {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
     margin-bottom: 10px;
     padding: 15px;
-    border: solid darkslategray;
-    border-bottom-width: thick;
-    
+    color: black; 
 }
 
 #selfPic {
     padding: 5px;
     margin: 10px; 
-    border-width: 30px;
+    border-width: 15px;
     border-color: darkslategray;
     border: solid;
     width: 25%;
@@ -58,7 +73,7 @@ p {
 #khTheme {
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
-    padding: -20px 0px;
+    padding: 0px 0px;
     margin: 5px;
 }
 
@@ -68,16 +83,8 @@ p {
     font-size: 35px;
 }
 
-#formCon {
-    font-family: 'Questrial', sans-serif;
-    font-size: 16px;
-    align-content: center;
-}
 
 #submitBtn {
     margin: 30px;
     padding: 10px;
-    justify-content: space-around;
-
-
 }
