@@ -11,9 +11,9 @@ p {
 
 i {
     color: white;
-    size: 20%;
-    padding: 5px;
-    margin: 5px;
+    font-size: 3rem;
+    padding: 0px 4px;
+    justify-content: space-evenly;
 }
 
 .navbar {
@@ -21,6 +21,7 @@ i {
     height: 50px;
     width: 100vw;
 }
+
 .navbar-brand {
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
@@ -40,9 +41,10 @@ i {
 }
 
 .footer {
-    height: 50px;
-    padding-top: 10px;
-    font-size: 12px;
+    height: 55px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    font-size: 15px;
     bottom: 0;
     width: 100vw;
     background-color: teal ;
@@ -54,7 +56,7 @@ i {
     margin: 10px;
     padding: 10px;
     font-family: 'Questrial', sans-serif;
-    float: left;;
+    float: left;    
 }
 
 #header {
@@ -89,6 +91,5 @@ i {
 
 #submitBtn {
     margin: 30px;
-    padding: 10px;
-
+    padding: 5px;
 }
