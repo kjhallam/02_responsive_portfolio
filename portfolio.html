@@ -1,81 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS reset pages-->
-    <link href="./reset.css" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet" />
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
     <!--CSS retrieved from Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
-   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
     <!--CSS stylesheet from scratch linked-->
-    <link href="./style.css" rel="stylesheet">
- 
+    <link href="./style.css" rel="stylesheet" />
+
     <title>Portfolio</title>
-</head>
-<body> 
-           <!--Added a  container to main tag-->        
-           <main class="container">  
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-xs">
+      <a id="homeBtn" class="navbar-brand" href="index.html">home</a>
+      <a id="porfolioBtn" class="navbar-brand" href="portfolio.html"
+        >portfolio</a
+      >
+      <a id="contactBtn" class="navbar-brand" href="contact.html">contact</a>
+    </nav>
+    <!--closing nav bar-->
 
-            <!--header tag applied-->
-            <header id="header" class="jumbotron-fluid"> | kendra j hallam |      
-                <span id="titleMe">portfolio</span> 
-            </header>
+    <!--Added a  container to main tag-->
+    <main class="container">
+      <!--header tag applied-->
+      <header id="header" class="jumbotron-fluid">
+        | kendra j hallam |
+        <span id="titleMe">portfolio</span>
+      </header>
 
-            <!--nav bar-->
-            <nav class="navbar navbar-expand-xs">
-                <a id="homeBtn" class="navbar-brand" href="index.html">home</a>
-                <a id="porfolioBtn" class="navbar-brand" href="portfolio.html">portfolio</a>
-                <a id="contactBtn" class="navbar-brand" href="contact.html">contact</a>
-            </nav>
-            <!--closing nav bar-->
+      <section class="row">
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="SEOlogo.jpg"
+            alt="4 individuals in meeting"
+          />
+          <p>Week 1 - SEO Code-Refactor</p>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="http://placehold.it/350x350"
+            alt="Placeholder"
+          />
+          <p>Week 2 - CSS Bootstrap</p>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="http://placehold.it/350x350"
+            alt="Placeholder"
+          />
+          <p>Week 3 - Javascript</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="http://placehold.it/350x350"
+            alt="Placeholder"
+          />
+          <p>Week 4 -</p>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="http://placehold.it/350x350"
+            alt="Placeholder"
+          />
+          <p>Week 5 -</p>
+        </div>
+        <div class="col-sm-4 mt-3">
+          <img
+            class="img-fluid"
+            src="http://placehold.it/350x350"
+            alt="Placeholder"
+          />
+          <p>Week 6 -</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">|kjh|©</footer>
 
-            <section class="row">
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="SEOlogo.jpg" alt="4 individuals in meeting">
-                    <p>Week 1 - SEO Code-Refactor</p>
-                </div>
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.it/350x350" alt="Placeholder">
-                    <p>Week 2 - CSS Bootstrap 
-                    </p>
-                </div>
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.it/350x350" alt="Placeholder">
-                    <p>Week 3 - Javascript</p>
-                </div>
-            </section>
-            <section class="row">
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.it/350x350" alt="Placeholder">
-                    <p>Week 4 -</p>
-                </div>
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.it/350x350" alt="Placeholder">
-                    <p>Week 5 -</p>
-                </div>
-                <div class="col-sm-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.it/350x350" alt="Placeholder">
-                    <p>Week 6 -</p>
-                </div>
-            </section>
+    <!--javascript style-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
-        
-            <footer class="footer">|kjh|©</footer>
-                
-            <!--javascript style-->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
 
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-
-
-</body>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
