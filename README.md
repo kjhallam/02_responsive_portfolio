@@ -2,7 +2,10 @@
 _________________________________
 <h2>design = reality</h2>
 _________________________________
-Website: 
+Website:
+
+ https://kjhallam.github.io/02_responsive_portfolio/
+
 
 
 My page is designed to inform future employers the design and functioning of what is to come. 
