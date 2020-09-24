@@ -24,6 +24,10 @@ There are 3 extraordinary pages linked together to read more as well as connect 
 
 - linkedin (https://www.linkedin.com/in/kendra-hallam-7999921b4/)
 
+![Index](/images/index.png)
 
+![Portfolio](/images/portfolio.png)
+
+![Contact](/images/contact.png)
 
 
